@@ -3,6 +3,7 @@ require("dotenv").config({ path: ".env.development" });
 module.exports = {
   siteMetadata: {
     title: "Phoenix Design",
+    siteUrl: "https://phoenixdesign.ca",
   },
   plugins: [
     {
@@ -18,6 +19,18 @@ module.exports = {
         typekit: {
           id: process.env.TYPEKIT_ID,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Phoenix Design`,
+        short_name: `Phoenix Design`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
       },
     },
     "gatsby-plugin-styled-components",
