@@ -4,7 +4,6 @@ import Button from "@material-ui/core/Button";
 import NotificationsOutlinedIcon from "@material-ui/icons/NotificationsOutlined";
 import styled from "styled-components";
 import { useForm } from "@formspree/react";
-import { Typography } from "@material-ui/core";
 
 const ContactStyles = styled.div`
   margin-top: 3rem;

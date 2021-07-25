@@ -2,7 +2,6 @@
 import React from "react";
 import "normalize.css";
 import Footer from "./Footer";
-import Nav from "./Nav";
 import GlobalStyles from "../styles/GlobalStyles";
 import Typography from "../styles/Typography";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";

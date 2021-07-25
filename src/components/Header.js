@@ -88,10 +88,13 @@ export default function Header() {
                 .typeString("we build websites")
                 .pauseFor(500)
                 .deleteChars(8)
+                .typeString("apps")
+                .pauseFor(500)
+                .deleteChars(4)
                 .typeString("brands")
                 .pauseFor(500)
                 .deleteChars(6)
-                .typeString("& user experiences")
+                .typeString("user experiences")
                 .start();
             }}
           />
